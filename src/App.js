@@ -17,7 +17,7 @@ function App() {
         if (preSecond < 59) return preSecond + 1;
         else setSecond(0);
       });
-    }, 1000);
+    }, time);
     return () => {
       //cleanup func
       clearInterval(timer);
